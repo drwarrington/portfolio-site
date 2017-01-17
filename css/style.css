@@ -1,0 +1,36 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 14pt;
+}
+
+input {
+  border: solid 1px;
+  padding: 4px;
+}
+
+input:hover {
+  border: 1px solid #999;
+  color: #000000;
+}
+
+input[type="button"]:active, input[type="reset"]:active {
+   border: 1px solid #fa89ad;
+   color:#98a077;
+   background-color: #000000;
+}
+
+#nav {
+    background-color: #ccbbaa;
+}
+
+.bullshit {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #aabbcc;
+}
